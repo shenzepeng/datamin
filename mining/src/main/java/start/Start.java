@@ -19,7 +19,15 @@ public class Start {
         DataMining_NaiveBayes.Client.startTime(TIMES,BASE_PATH);
     }
     public static void main(String[] args) throws InterruptedException {
+        System.out.println("-----------SINGLE START-----------");
         Start.single();
+        System.out.println("-------------SINGLE END-----------");
+        System.out.println("----------------------------------");
+        System.out.println("----------------------------------");
+        System.out.println("----------------------------------");
+        System.out.println("----------------------------------");
+        System.out.println("---------MUCH THREAD START--------");
         Start.withThread();
+        System.out.println("---------MUCH THREAD END----------");
     }
 }
